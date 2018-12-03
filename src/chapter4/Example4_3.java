@@ -10,9 +10,7 @@ public class Example4_3 {
         int max_num = 10;
         for (int i = 1; i <= max_num; i++) {
             sum += i * (max_num - i + 1);
-
         }
-
         System.out.println(sum);
     }
 }
